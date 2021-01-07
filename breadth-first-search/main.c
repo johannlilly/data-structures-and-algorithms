@@ -9,7 +9,7 @@
 //            0
 //   out:     1 2
 
-# include<stdio.h>
+# include <stdio.h>
 
 int a[20][20],    // 2-dimensional array
     q[20],        // queue
@@ -31,7 +31,7 @@ void bfs(int v)
       q[++r]=i;
     }
   }
-  
+
   // dequeue if queue is not empty
   if (f<=r) {
     visited[q[f]] = 1;
